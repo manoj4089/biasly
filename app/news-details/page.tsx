@@ -5,10 +5,11 @@ import type { NewsArticle } from "@/lib/news";
 import NewsletterForm from "./newsletter-form";
 import ArticleViewTracker from "@/components/ArticleViewTracker";
 import RelatedStoryLink from "@/components/RelatedStoryLink";
+import { Brand } from "@/components/StoryCard";
 
 export const metadata: Metadata = {
-  title: "Article analysis | Skew",
-  description: "Balanced article analysis from Skew.",
+  title: "Article analysis | biasly",
+  description: "Balanced article analysis from biasly.",
 };
 
 function InfoIcon() {
@@ -51,7 +52,7 @@ export default function NewsDetailsPage({ article, relatedArticles }: { article?
       sentimentLabel={analysis.sentiment_label}
       confidence={analysis.confidence}
     />
-    <header className="main-nav detail-nav"><div className="site-shell nav-content"><Link href="/" className="brand" aria-label="Skew News"><strong>skew</strong><span>News</span></Link><Link href="/" className="login-button">Back to news</Link></div></header>
+    <header className="main-nav detail-nav"><div className="site-shell nav-content"><Link href="/" aria-label="biasly News"><Brand /></Link><Link href="/" className="login-button">Back to news</Link></div></header>
     <main className="site-shell detail-layout">
       <article className="article-column">
         <header className="article-header">

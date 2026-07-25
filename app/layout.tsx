@@ -4,7 +4,7 @@ import PostHogIdentifier from "@/components/PostHogIdentifier";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Skew — Balanced News Coverage",
+  title: "biasly — Balanced News Coverage",
   description: "Balanced news coverage, powered by AI.",
 };
 
