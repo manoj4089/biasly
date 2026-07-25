@@ -1,0 +1,32 @@
+[
+  {
+    "event_name": "article_clicked",
+    "event_description": "User clicks a story card on the home page to read an article.",
+    "file": "components/StoryCardLink.tsx"
+  },
+  {
+    "event_name": "article_viewed",
+    "event_description": "User views a full article on the news detail page.",
+    "file": "components/ArticleViewTracker.tsx"
+  },
+  {
+    "event_name": "newsletter_subscribe_submitted",
+    "event_description": "User submits the newsletter subscription form on the article detail page.",
+    "file": "app/news-details/newsletter-form.tsx"
+  },
+  {
+    "event_name": "related_article_clicked",
+    "event_description": "User clicks a related article in the related articles section on the detail page.",
+    "file": "components/RelatedStoryLink.tsx"
+  },
+  {
+    "event_name": "scrape_completed",
+    "event_description": "The article scraping pipeline completed, reporting sources checked and articles inserted.",
+    "file": "app/api/scrape/route.ts"
+  },
+  {
+    "event_name": "analysis_completed",
+    "event_description": "The AI analysis pipeline completed, reporting articles analyzed, skipped, and failed.",
+    "file": "app/api/analyze/route.ts"
+  }
+]
